@@ -1,11 +1,32 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import '@fontsource/poppins/400.css'
+import '@fontsource/poppins/500.css'
+import '@fontsource/poppins/600.css'
+import '@fontsource/poppins/700.css'
+import '@fontsource/poppins/800.css'
+import '@fontsource/poppins/900.css'
+import Layout from '@/layouts/Layout.astro'
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Hero from '@/sections/Hero.astro'
+import Tickets from '@/sections/Tickets.astro'
+import Rights from '@/sections/Rights.astro'
+import Map from '@/sections/Map.astro'
+import Rides from '@/sections/Rides.astro'
+import Gallery from '@/sections/Gallery.astro'
+import FAQ from '@/sections/FAQ.astro'
+import Footer from '@/sections/Footer.astro'
+
+const { title = 'Lola Lolita Land 15 y 16 de Junio en Aquopolis, Madrid' } =
+  Astro.props
 ---
 
 <Layout>
-	<Welcome />
+  <Hero />
+  <Tickets />
+  <Rights />
+  <Map />
+  <Rides />
+  <Gallery />
+  <FAQ />
+  <Footer />
 </Layout>

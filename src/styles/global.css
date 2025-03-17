@@ -1,0 +1,28 @@
+/** @format */
+
+@import 'tailwindcss';
+
+@theme {
+  --color-primary-light: #ff99d1;
+  --color-primary: #ff0695;
+
+  --color-theme-blue: #383acf;
+  --color-theme-blue-light: #66dfff;
+  --color-theme-cyan: #61e2e5;
+  --color-theme-green: #2b8364;
+  --color-theme-green-light: #98d354;
+
+  --font-special: 'Amertha', sans-serif;
+}
+
+@font-face {
+  font-family: 'Amertha';
+  src: url('/fonts/amertha.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
