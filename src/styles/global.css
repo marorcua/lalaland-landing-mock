@@ -1,6 +1,7 @@
 /** @format */
 
 @import 'tailwindcss';
+@plugin '@tailwindcss/typography';
 
 @theme {
   --color-primary-light: #ff99d1;
